@@ -22,7 +22,7 @@ jobs:
         uses: ./.github/actions/setup-ci-env
         with:
           setup-node: "true"
-          node-version: "24"
+          node-version: "24.22.1"
           setup-pnpm: "true"
           apt-packages: "build-essential"
 
